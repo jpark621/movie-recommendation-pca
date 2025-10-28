@@ -12,8 +12,7 @@ Architecturally, we will:
 
   write a filtered csv file -> compute the dataset matrix -> compute the covariance matrix -> run simultaneous power iteration on this matrix
 
-  O(num_ratings)            ->  O(num_users * num_movies) -> O(num_users * num_movies) -> O(num_movies^3)
-    25M               
+  O(num_ratings)            ->  O(num_users * num_movies) -> O(num_users * num_movies) -> O(num_movies^3)               
 
 since simultaneous power-iteration uses QR-factorization, which is O(n^3).
 
