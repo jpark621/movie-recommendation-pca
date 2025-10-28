@@ -34,3 +34,7 @@ In this case, we use the mean of the movie. "I might watch the movie". If we rec
 | 100 | 2352 | ? |
 | 500 | 3720 | 4:55 |
 | 1000 | 5011 | 12:15 |
+
+# Resources
+
+  * ratings.csv can be found in the MovieLens website ([link](https://grouplens.org/datasets/movielens/)) under ml-32m.zip.
