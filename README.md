@@ -35,6 +35,8 @@ In this case, we use the mean of the movie. "I might watch the movie". If we rec
 | 500 | 3720 | 4:55 |
 | 1000 | 5011 | 12:15 |
 
+The number of iterations seems to scale linearly with the number of dimensions. It works!
+
 # Resources
 
   * ratings.csv can be found in the MovieLens website ([link](https://grouplens.org/datasets/movielens/)) under ml-32m.zip.
